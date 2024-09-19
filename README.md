@@ -33,3 +33,12 @@ Projeyi doğrudan Kaggle üzerinden çalıştırmak için şu linki kullanabilir
 
 ## Sonuç:
 Bu veri setimiz için en uygunu doğruluk oranlarını göz önüne aldığımızda Gözetimli Öğrenme algoritması olan Lojistik Regresyon olduğu görülmüştür.
+
+Bu nedenle, Lojistik Regresyon modelini optimize etmeye çalıştım. **GridSearchCV** kullanarak `C` ve `penalty` parametrelerini optimize ettim. Optimizasyon sonucunda, doğruluk oranı hafif bir şekilde %98.27'den **%98.53**'e yükseldi. Kesinlik (%98.42), duyarlılık (%98.21) ve F1 skoru (%98.31) da optimize edilerek modelin genel performansı iyileştirildi.
+
+- **Doğruluk (Accuracy)**: %98.53
+- **Kesinlik (Precision)**: %98.42
+- **Duyarlılık (Recall)**: %98.21
+- **F1 Skoru**: %98.31
+
+Bu iyileştirme sonucunda, **Lojistik Regresyon** modelinin, e-posta spam sınıflandırmasında en etkili yöntem olduğu görülmüştür.
