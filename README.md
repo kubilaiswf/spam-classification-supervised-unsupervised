@@ -28,8 +28,7 @@ Bu projede kullanılan veri seti, spam veya ham olarak sınıflandırılmış e-
 3. Bu depodan `spam-detection-with-supervised-and-unsupervised.ipynb` notebook dosyasını Kaggle notebook'unuza yükleyin.
 4. Her hücreyi adım adım çalıştırarak sınıflandırma modellerini çalıştırın.
 
-veya
-
+## Alternatif
 Projeyi doğrudan Kaggle üzerinden çalıştırmak için şu linki kullanabilirsiniz: [spam-detection Kaggle Notebook](https://www.kaggle.com/code/kubilaiswf/spam-detection-with-supervised-and-unsupervised)
 
 ## Sonuç:
